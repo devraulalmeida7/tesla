@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    padding: 1rem 0.5rem ;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu_options {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.menu_item {
+    text-decoration: none;
+    padding: 0.2rem;
+    transition: 0.4s;
+}
+.menu_item:hover{
+    background: rgba();
+}
