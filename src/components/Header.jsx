@@ -35,9 +35,9 @@ export default function Header() {
 
 
             <ol className={styles.menu_icons}>
-                <a href="#" className={styles.menu_icon}></a>
-                <button></button>
-                <a href="#" className={styles.menu_icon}></a>
+                <a href="#" className={styles.menu_icon}><i className="fa-regular fa-circle-question"></i></a>  
+                <button className={styles.menu_icon_global}><i className="fa-solid fa-globe"></i></button>
+                <a href="#" className={styles.menu_icon}><i className="fa-solid fa-user"></i></a>
             </ol>
             </nav>
         </header>

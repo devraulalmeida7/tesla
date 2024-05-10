@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    background: none;
 }
 .primary_logo {
     width: 8%;
@@ -21,11 +22,28 @@
     display: flex;
     gap: 1.5rem;
     align-items: center;
-    width: 35%;
+    width: 30%;
 }
 .menu_item {
     text-decoration: none;
     padding: 0.2rem;
     transition: 0.4s;
     color: black;
+}
+.menu_icons {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1.5rem;
+    align-items: center;
+}
+.menu_icon {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.menu_icon_global {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
